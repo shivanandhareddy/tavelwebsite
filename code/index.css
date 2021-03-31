@@ -1,0 +1,101 @@
+html{
+    background-color:#0000003f;
+    height: 30%;
+    background-image: linear-gradient(#f8f8f8,#252475);
+    background-attachment: fixed;
+    background-image: url(images/pexels-nubia-navarro-\(nubikini\)-386009.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    
+    
+ 
+
+}
+main{
+    width: 1330px;
+    margin-left: -150px;
+    margin-right: auto;
+    padding: 0%;
+    height: 300px;
+    
+    
+
+     /* margin-top: 5rem; */
+    /* margin-bottom: 10rem; */
+
+   /* min-height: 300px;
+    margin-left: 22rem;
+    margin-right: auto;  */
+    /* margin-right: -40px;
+    margin-left: -100px; */
+    
+}
+.container{
+    width: 1024px;
+
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    /* background-position: top center; */
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size: 1.125rem;
+    margin: 0em;
+  }
+
+  header{
+     /* display: flex;  */
+    background-image: linear-gradient(#2048ce,#060f5ce0);
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 6px;
+    margin-left: -160px;
+    margin-right: -160px;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+    margin-top: 2px;
+    
+
+}
+  
+
+.navbutton{
+    border: 2px solid rgb(255, 251, 251);
+    color: white;
+    font-family: 'playfair Display',serif;
+    padding: 10px 10px;
+    display:inline-block;
+    text-decoration: none ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+    overflow: hidden;
+  
+
+
+}
+.navbutton a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    
+}
+.topright{
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+.navbutton:hover{
+    background-color:rgba(0, 0, 0, 0.822);
+    transition-duration: 1s;
+}
+.logo{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -60px;
+    margin-top: -20px;
+    padding-top: 15px;
+}
+

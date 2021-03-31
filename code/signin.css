@@ -1,0 +1,154 @@
+html{
+    background-color:#0000003f;
+    height: 100%;
+}
+main{
+    width: 1024px;
+    margin-top: 4rem;
+    margin-bottom: auto;
+
+    min-height: 300px;
+    margin-left: 22rem;
+    margin-right: auto; 
+    margin-top: -3px;
+}
+.container{
+    width: 1024px;
+
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    /* background-position: top center; */
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size: 1.125rem;
+    margin: 0em;
+  }
+
+  header{
+     /* display: flex;  */
+    background-image: linear-gradient(#2048ce,#060f5ce0);
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+    margin-left: -160px;
+    margin-right: -160px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+    margin-top: 2px;
+
+}
+  
+/* .container{
+    width: 1024px;
+    margin-top: 9rem;
+    margin-bottom: auto;
+
+    min-height: 300px;
+    margin-left: 33rem;
+    margin-right: auto;
+   
+} */
+h1{
+    text-align: center;
+    
+
+}
+.cards{
+    background-color: rgba(212, 20, 20, 0.884);
+    min-height: 270px;
+    width: 30.3%;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(14, 13, 13, 0.575) ;
+}
+#user-id{
+      padding: 4px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+      border-radius: 5px;
+}
+#pasword{
+    padding: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+    border-radius: 5px;
+}
+.cards p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+
+}
+.mybutton{
+    background-color: white;
+    color:black;
+    font-family: 'playfair Display',serif;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+    margin-top: 20px;
+    
+}
+a.mybutton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    margin-left: 9px;
+    border-radius: 20px;
+}
+.mybutton:hover{
+    background-color:rgba(26, 143, 26, 0.822);
+    transition-duration: 1s;
+
+}
+.sign p{
+    padding-left: 10px;
+}
+.navbutton{
+    border: 2px solid rgb(255, 251, 251);
+    color: white;
+    font-family: 'playfair Display',serif;
+    padding: 10px 10px;
+    display:inline-block;
+    text-decoration: none ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322) ;
+    overflow: hidden;
+  
+
+
+}
+.navbutton a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    
+}
+.topright{
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+.navbutton:hover{
+    background-color:rgba(0, 0, 0, 0.822);
+    transition-duration: 1s;
+}
+.logo{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -60px;
+    margin-top: -20px;
+    padding-top: 15px;
+}
+.ac a{
+    padding-left: 70px;
+   text-decoration-line: none;
+}
+.logo h1{
+    text-align: left;
+}
